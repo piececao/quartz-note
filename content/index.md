@@ -1,7 +1,7 @@
 ---
 title: Welcome to Piececao's garden
 ---
-This site is built with Quartz, and deployed via **Github** and [Vercel](https://vercel.com). Specifical thanks go to [时歌](https://www.lapis.cafe/); [his' blog](https://www.lapis.cafe/posts/technicaltutorials/obsidian-quartz-4/) privided guidance that made the site possible.
+This site is built with Quartz, and deployed via **Github** and [Vercel](https://vercel.com). Specifical thanks go to [时歌](https://www.lapis.cafe/); [their blog](https://www.lapis.cafe/posts/technicaltutorials/obsidian-quartz-4/) privided guidance that made the site possible.
 This site is not a blog site, for blog please refer to [this](https://blog.piececao.top)
 # Page view test
 [[Quadratic]]
