@@ -4,7 +4,6 @@ tags:
   - linear-algebra
   - quadratic
 ---
-
 基本曲线形状：
 
 - 椭圆：$\frac{x^2}{a}+\frac{y^2}{b}=1$
