@@ -8,7 +8,7 @@ build:
 	@$(quartz) build --directory $(PWD)/content -o $(PWD)/public
 
 server:
-	@$(quartz) build --directory $(PWD)/content -o $(PWD)/public --serve
+	cd ${quartzcd} && npx quartz build --directory $(PWD)/content -o $(PWD)/public --serve
 	
 layout:
 	@cp -v quartz.config.ts quartz.layout.ts $(PWD)/quartz
