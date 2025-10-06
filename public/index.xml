@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 Quartz 4.0</title>
+      <link>https://sosiristseng.github.io/template-quartz</link>
+      <description>Last 10 notes on 🪴 Quartz 4.0</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>实对称矩阵的特征向量关系</title>
+    <link>https://sosiristseng.github.io/template-quartz/math/eiginvec-of-symmetric-matrix</link>
+    <guid>https://sosiristseng.github.io/template-quartz/math/eiginvec-of-symmetric-matrix</guid>
+    <description><![CDATA[ 设\mathbf A为实对阵矩阵，则有： \mathbf A^T = \mathbf A 设\lambda_1和\lambda_2为\mathbf A的两个实特征值（\lambda_1\neq\lambda_2），其对应的特征向量为\vec{\mathbf v}_1和\vec{\mathbf v}_2，则有： \begin{align} \mathbf A\vec{\mathbf v}_1 &amp;= \lambda_1\vec{\mathbf v}_1 \\ \mathbf A\vec{\mathbf v}_2 &amp;= \lambda_2\vec{\mathbf v}_2 \end{... ]]></description>
+    <pubDate>Mon, 06 Oct 2025 08:17:53 GMT</pubDate>
+  </item><item>
+    <title>二次型</title>
+    <link>https://sosiristseng.github.io/template-quartz/math/Quadratic</link>
+    <guid>https://sosiristseng.github.io/template-quartz/math/Quadratic</guid>
+    <description><![CDATA[ 基本曲线形状： 椭圆：\frac{x^2}{a}+\frac{y^2}{b}=1 双曲线：\frac{x^2}{a}-\frac{y^2}{b}=1 抛物线：ax^2-y=1 一般形式： \begin{align*} ax^2+bxy+cy^2+dx+ey+f &amp;= 0 \\ \xRightarrow{(\text{略去一次项})} \frac{a}{f}x^2 + \frac{b}{f}xy+\frac{c}{f}+1 &amp;= 0 \\ \Rightarrow ax^2 + bxy^2 + cy^2 + 1 &amp;= 0 \end{align*} 二次型矩阵 \begin{... ]]></description>
+    <pubDate>Mon, 06 Oct 2025 07:53:50 GMT</pubDate>
+  </item><item>
+    <title>Welcome to Quartz 4</title>
+    <link>https://sosiristseng.github.io/template-quartz/</link>
+    <guid>https://sosiristseng.github.io/template-quartz/</guid>
+    <description><![CDATA[ Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. ]]></description>
+    <pubDate>Mon, 06 Oct 2025 07:48:47 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
