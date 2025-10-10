@@ -10,10 +10,10 @@ $$
 $$
 设$\lambda_1$和$\lambda_2$为$\mathbf A$的两个实特征值（$\lambda_1\neq\lambda_2$），其对应的特征向量为$\vec{\mathbf v}_1$和$\vec{\mathbf v}_2$，则有：
 $$
-\begin{align}
+\begin{align*}
 \mathbf A\vec{\mathbf v}_1 &= \lambda_1\vec{\mathbf v}_1 \\
 \mathbf A\vec{\mathbf v}_2 &= \lambda_2\vec{\mathbf v}_2 
-\end{align}
+\end{align*}
 $$
 左乘$\vec{\mathbf v}_2^T$得
 $$
