@@ -43,10 +43,11 @@ $E(X)=\frac{1}{p}$, $D(X)=\frac{1-p}{p^2}$
 6. 指数分布： 
 $$
 f(x;{\color{red}\lambda})=\left\{
-\array{
-{\color{red}\lambda}e^{-{\color{red}\lambda}x} & x\geq 0,\\
+\begin{align*}
+{\color{red}\lambda}e^{-{\color{red}\lambda}x},& x\geq 0,\\
 0, & x<0.
-}\right.
+\end{align*}
+\right.
 $$ 
 $E(X)=\frac{1}{\lambda}$, $D(X)=\frac{1}{\lambda^2}$
 $$ 
