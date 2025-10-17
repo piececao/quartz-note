@@ -17,20 +17,39 @@ title: 随机事件
 # 常见分布
 
 1. $0-1$分布：$P\{X=k\}=p^k(1-p)^{1-k},k=0,1$
-2. 二项分布$B(n,p)$：$$P\{X=k\}=C_n^kp^k(1-p)^{n-k},k=0,1,2,\cdots,n$$    $E(X)=np$, $D(X)=np(1-p)$
-3. 泊松分布：$$P\{X=k\}=\frac{\lambda^ke^{-\lambda}}{k!},k=0,1,2,\cdots$$  $E(X)=\lambda$, $D(X)=\lambda$
-4. 超几何分布（$N$个球中有$M$个红球，不放回地抽出$n$个球，其中有$k$个红球）：$$\begin{align*}
+2. 二项分布$B(n,p)$：
+$$
+P\{X=k\}=C_n^kp^k(1-p)^{n-k},k=0,1,2,\cdots,n
+$$
+$E(X)=np$, $D(X)=np(1-p)$
+3. 泊松分布：
+$$
+P\{X=k\}=\frac{\lambda^ke^{-\lambda}}{k!},k=0,1,2,\cdots
+$$  
+$E(X)=\lambda$, $D(X)=\lambda$
+4. 超几何分布（$N$个球中有$M$个红球，不放回地抽出$n$个球，其中有$k$个红球）
+$$
+\begin{align*}
 &P\{X=k\}=\frac{C_M^k C_{N-M}^{n-k}}{C_N^n},\\
 &(max\{0,n-N+M\}\leq k\leq min\{n,M\})
-\end{align*}$$     $E(X)=n\frac{M}{N}$, $D(X)=n\frac{M}{N}\frac{(N-n)(N-M)}{N(N-1)}$
-5. 几何分布（成功概率为$p$, 在$k$次试验中，第$k$次才成功的概率）： $$P\{X=k\}=p(1-p)^{k-1},k=1,2,3,\cdots$$ $E(X)=\frac{1}{p}$, $D(X)=\frac{1-p}{p^2}$
-6. 指数分布： $$f(x;\textcolor{red}{\lambda})=\left\{
+\end{align*}
+$$    
+$E(X)=n\frac{M}{N}$, $D(X)=n\frac{M}{N}\frac{(N-n)(N-M)}{N(N-1)}$
+5. 几何分布（成功概率为$p$, 在$k$次试验中，第$k$次才成功的概率）： 
+$$
+P\{X=k\}=p(1-p)^{k-1},k=1,2,3,\cdots
+$$ 
+$E(X)=\frac{1}{p}$, $D(X)=\frac{1-p}{p^2}$
+6. 指数分布： 
+$$
+f(x;\textcolor{red}{\lambda})=\left\{
 \array{
 \textcolor{red}{\lambda}e^{-\textcolor{red}{\lambda}x} & x\geq 0,\\
 0, & x<0.
-}
-\right.
-$$ $E(X)=\frac{1}{\lambda}$, $D(X)=\frac{1}{\lambda^2}$ $$ 
+}\right.
+$$ 
+$E(X)=\frac{1}{\lambda}$, $D(X)=\frac{1}{\lambda^2}$
+$$ 
 \begin{align*}
 E(X)&=\int_0^\infty x\lambda e^{-\lambda x}dx \\
 &=- \int_0^\infty xd(e^{-\lambda x}) \\
