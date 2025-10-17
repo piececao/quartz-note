@@ -27,6 +27,7 @@ $$
 P\{X=k\}=\frac{\lambda^ke^{-\lambda}}{k!},k=0,1,2,\cdots
 $$  
 $E(X)=\lambda$, $D(X)=\lambda$
+
 4. 超几何分布（$N$个球中有$M$个红球，不放回地抽出$n$个球，其中有$k$个红球）
 $$
 \begin{align*}
@@ -35,11 +36,13 @@ $$
 \end{align*}
 $$    
 $E(X)=n\frac{M}{N}$, $D(X)=n\frac{M}{N}\frac{(N-n)(N-M)}{N(N-1)}$
+
 5. 几何分布（成功概率为$p$, 在$k$次试验中，第$k$次才成功的概率）： 
 $$
 P\{X=k\}=p(1-p)^{k-1},k=1,2,3,\cdots
 $$ 
 $E(X)=\frac{1}{p}$, $D(X)=\frac{1-p}{p^2}$
+
 6. 指数分布： 
 $$
 f(x;{\color{red}\lambda})=\left\{
